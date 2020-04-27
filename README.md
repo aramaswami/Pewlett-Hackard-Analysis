@@ -34,7 +34,7 @@ Due to high anticipated staff turnover, PH wanted to create a table that showed 
 - Title
 - from_date and to_date
 
-To do this, I joined the employees and titles tables to create new list, and used this new list to include only the desired columns. I noticed several instances of duplicate data so I applied a select 'distict operation' to retain unique employee data. The sql quer for this analysis is at:  Note that the code is also included in the sql query file.
+To do this, I joined the employees and titles tables to create new list, and used this new list to include only the desired columns. I noticed several instances of duplicate data so I applied a select 'distict operation' to retain unique employee data. The sql query for this analysis is at: https://github.com/aramaswami/Pewlett-Hackard-Analysis/blob/master/Challenge_files/Challenge%20Table_2%20Mentorship%20Eligibility.sql. Note that the code is also included in the sql query file.
   
 Challenge Table_2 Mentorship Eligibility. A csv file of the output table is at: https://github.com/aramaswami/Pewlett-Hackard-Analysis/blob/master/Challenge_files/Challenge_Mentor_Eligibility.csv
   
