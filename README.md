@@ -34,42 +34,9 @@ Due to high anticipated staff turnover, PH wanted to create a table that showed 
 - Title
 - from_date and to_date
 
-To do this, I joined the employees and titles tables to create new list, and used this new list to include only the desired columns. I noticed several instances of duplicate data so I applied a select 'distict operation' to retain unique employee data. Following is the code that I wrote, and as beofe this is included in the sql query file.
+To do this, I joined the employees and titles tables to create new list, and used this new list to include only the desired columns. I noticed several instances of duplicate data so I applied a select 'distict operation' to retain unique employee data. Note that the code is also included in the sql query file.
   
---Challenge Table_2 Mentorship Eligibility
---step_1 Join employees and titles tables to create new mentor_emp 
-SELECT e.emp_no,
-	e.first_name,
-	e.last_name,
-	e.birth_date,
-	ti.title,
-	ti.from_date,
-	ti.to_date
-INTO mentor_emp
-FROM employees as e
-INNER JOIN titles as ti
-ON e.emp_no = ti.emp_no
-WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
-;
---step_2 select desired columns from mentor_emp table. Running this query will output the desired list.
--- drop table created in this step to rerun
-drop table challenge_2_not_distinct;
-
-SELECT emp_no,first_name,last_name,title,from_date,to_date
-INTO challenge_2_not_distinct
-FROM mentor_emp
-Order by emp_no
-;
---step3 select distinct
--- drop table created in this step to rerun
-drop table challenge_Mentorship_Eligibility;
-
---select distinct on emp_no and return all columns
-Select distinct on (emp_no) *
-Into challenge_Mentorship_Eligibility
-from challenge_2_not_distinct
-order by emp_no
-;
+Challenge Table_2 Mentorship Eligibility. A csv file of the output table is at:
   
   
 ## Part_3: Analysis and Discussion
