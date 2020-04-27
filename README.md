@@ -22,7 +22,7 @@ PH wanted to create a table that showed the following:
 - from_date
 - Salary
 
-This involved two join operations, ie. combining two tables. The first join was retirement_info and the titles to create new table, an the second was to join the new table with employees table with salary data. Finally, I applied a select distinct operation to eliminate duplicate rows that resulted form the join operations. Note that the code is also included in the sql queries file referenced earlier.  
+This involved two join operations, ie. combining two tables. The first join was retirement_info and the titles to create new table, an the second was to join the new table with employees table with salary data. Finally, I applied a select distinct operation to eliminate duplicate rows that resulted form the join operations. The sql quer for this analysis is at: https://github.com/aramaswami/Pewlett-Hackard-Analysis/blob/master/Challenge_files/Challenge%20Table_2%20Mentorship%20Eligibility.sql Note that the code is also included in the sql queries file referenced earlier.  
   
 Challenge Table_1 Number of Retiring Employees by Title. A csv file of the output table is at: https://github.com/aramaswami/Pewlett-Hackard-Analysis/blob/master/Challenge_files/Challenge_Retiring_Employees.csv  
 
@@ -34,7 +34,7 @@ Due to high anticipated staff turnover, PH wanted to create a table that showed 
 - Title
 - from_date and to_date
 
-To do this, I joined the employees and titles tables to create new list, and used this new list to include only the desired columns. I noticed several instances of duplicate data so I applied a select 'distict operation' to retain unique employee data. Note that the code is also included in the sql query file.
+To do this, I joined the employees and titles tables to create new list, and used this new list to include only the desired columns. I noticed several instances of duplicate data so I applied a select 'distict operation' to retain unique employee data. The sql quer for this analysis is at:  Note that the code is also included in the sql query file.
   
 Challenge Table_2 Mentorship Eligibility. A csv file of the output table is at: https://github.com/aramaswami/Pewlett-Hackard-Analysis/blob/master/Challenge_files/Challenge_Mentor_Eligibility.csv
   
