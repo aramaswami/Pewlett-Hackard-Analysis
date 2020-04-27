@@ -24,7 +24,6 @@ PH wanted to create a table that showed the following:
 
 This involved two join operations, ie. combining two tables. The first join was retirement_info and the titles to create new table, an the second was to join the new table with employees table with salary data. Finally, I applied a select distinct operation to eliminate duplicate rows that resulted form the join operations. The sql query for this analysis is at:  
 https://github.com/aramaswami/Pewlett-Hackard-Analysis/blob/master/Challenge_files/Challenge%20Table_1_Retiring_Employees.sql  
-
 Note that the code is also included in the sql queries file referenced earlier.  
   
 Challenge Table_1 Number of Retiring Employees by Title. A csv file of the output table is at: https://github.com/aramaswami/Pewlett-Hackard-Analysis/blob/master/Challenge_files/Challenge_Retiring_Employees.csv  
