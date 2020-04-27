@@ -6,7 +6,9 @@ PH wants to analyze their employee data to plan for employees who are retiring, 
 ## Part_1
 To start this analysis, I created an entity relationship diagram (ERD), as shwn below, to visualize the various csv files that PH provided. This involved a review of the fields in each file, determining commonality, and creating a schema that described the relationships between the csv files. (You can find the schma from which the ERD is derived at: https://github.com/aramaswami/Pewlett-Hackard-Analysis/blob/master/Challenge_files/EmployeeDB_QuickDBD_schema.txt)
 
-  ![](https://github.com/aramaswami/Pewlett-Hackard-Analysis/blob/master/Challenge_files/EmployeeDB%20ERD.png)
-
-
+  ![](https://github.com/aramaswami/Pewlett-Hackard-Analysis/blob/master/Challenge_files/EmployeeDB%20ERD.png)  
+    
+    
+## Part_2
+Based on this ERD, I created a database and wrote several SQL queries to create tables to understand the data. With the csv files provided, the first step was to create six tables: Department, Employees, Dept Managers, Salaries, Dept Employees and Titles. The 
 
