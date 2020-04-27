@@ -5,6 +5,7 @@ PH wants to analyze their employee data to plan for employees who are retiring, 
 
 ## Part_1
 To start this analysis, I created an entity relationship diagram (ERD) to visualize the various csv files that PH provided. This involved a review of the fields in each file, determining commonality, and creating a schema that described the relationships between the csv files.
-
+  
+  
 ![](Challenge_files/EmployeeDB ERD.png)
 
