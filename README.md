@@ -108,12 +108,10 @@ order by emp_no
   
   
 ## Part_3: Analysis and Discussion
+PH tasked me with reviewing their employee data and creating a database and queries to understand and plan their workforce. I have a few observations and recommendations based on my analysis.
+- PH has more than 300,000 employees. Their challenge is that some 41,380 are scheduled to retire. This poses a significant challenge in succession planning, training, and retention.
+- An analysis of the employee base also shows that the younger team is about 1940 employees. This is an important group to train and mentor as next gen leaders.
+- A particular concern may be that more than 7300 of reiring emploees are in sales. The company should review all customer accounts that may be impacted and develop a communications and coverage strategy.
+- I'd also recommend better monitoring of assignment of department heads. As of the query date, it appears some departments were not assigned managers.
 
-
-
-
-
-
-
-
-
+The employee data is very helpful but can be improved in many ways. Tracking promotions, salary hikes, review and ratin, and other data may help in developing a more effective HR strategy. A periodic analysis of potential risks due to retirements and other workforce disruption would also be helpful.
