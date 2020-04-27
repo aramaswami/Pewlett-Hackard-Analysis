@@ -10,5 +10,11 @@ To start this analysis, I created an entity relationship diagram (ERD), as shwn 
     
     
 ## Part_2
-Based on this ERD, I created a database and wrote several SQL queries to create tables to understand the data. With the csv files provided, the first step was to create six tables: Department, Employees, Dept Managers, Salaries, Dept Employees and Titles. The 
+Based on this ERD, I created a database and wrote several SQL queries to create tables to understand the data. With the csv files provided, the first step was to create six tables: Department, Employees, Dept Managers, Salaries, Dept Employees and Titles. A copy of the full sql queries file is at: https://github.com/aramaswami/Pewlett-Hackard-Analysis/blob/master/queries.sql
+  
+PH management wanted to specifically analyze and create two tables that they presented as challenges : (i) Table_1: Number of Retiring Employees by Title; and (ii) Table_2: Mentorship Eligibility.
+  
+### Table_1: Number of Retiring Employees by Title
+
+
 
