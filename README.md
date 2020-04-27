@@ -36,7 +36,7 @@ Due to high anticipated staff turnover, PH wanted to create a table that showed 
 
 To do this, I joined the employees and titles tables to create new list, and used this new list to include only the desired columns. I noticed several instances of duplicate data so I applied a select 'distict operation' to retain unique employee data. Note that the code is also included in the sql query file.
   
-Challenge Table_2 Mentorship Eligibility. A csv file of the output table is at:
+Challenge Table_2 Mentorship Eligibility. A csv file of the output table is at: https://github.com/aramaswami/Pewlett-Hackard-Analysis/blob/master/Challenge_files/Challenge_Mentor_Eligibility.csv
   
   
 ## Part_3: Analysis and Discussion
